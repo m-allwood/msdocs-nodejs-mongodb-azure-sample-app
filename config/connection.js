@@ -32,8 +32,8 @@ async function getConnectionInfo() {
   const DATABASE_NAME = process.env.DATABASE_NAME || "azure-todo-app";
 
   return {
-    DATABASE_URL: process.env.DATABASE_URL,
-    DATABASE_NAME: process.env.DATABASE_NAME
+    DATABASE_URL: process.env.mongodb://test-app-az1-server:dRZygSlyHdttExpNWvXaDCUh9rFMyPVhrkgtrOC8H1G1NnsZAZzthrTvBqH4X844iiiKu1gQHn1bACDbVT9PBw==@test-app-az1-server.mongo.cosmos.azure.com:10255/test-app-az1-database?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@test-app-az1-server@,
+    DATABASE_NAME: process.env.test-app-az1-server
   }
 }
 
